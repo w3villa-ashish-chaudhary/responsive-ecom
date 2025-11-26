@@ -273,7 +273,10 @@ body {
 
 .footer li {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+>>>>>>> b3ffe993f30e96fa79a95dbffdf04d3f26ddc5fd
   align-items: center;
   gap: 15px;
   font-size: 16px;
@@ -287,6 +290,7 @@ body {
 
 .subtext {
   display: block;
+<<<<<<< HEAD
   font-size: 12px;        
   color: #777; 
   font-weight: normal;
@@ -296,3 +300,10 @@ body {
 
 
 
+=======
+  color: #aaa;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 5px;
+}
+>>>>>>> b3ffe993f30e96fa79a95dbffdf04d3f26ddc5fd
