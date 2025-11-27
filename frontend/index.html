@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox Navbar</title>
+    <title>Responsive Journal</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,6 +15,19 @@
     />
   </head>
   <body>
+    <div class="mobile-top-bar">
+      <div class="mobile-links-left">
+        <a href="#"><i class="fa-solid fa-user"></i> Login</a>
+        <a href="#"><i class="fa-solid fa-user-plus"></i> Register</a>
+      </div>
+      <div class="mobile-links-right">
+        <a href="#">$ US Dollar <i class="fa-solid fa-caret-down"></i></a>
+        <a href="#"
+          ><i class="fa-solid fa-flag-usa"></i> English
+          <i class="fa-solid fa-caret-down"></i
+        ></a>
+      </div>
+    </div>
 
     <nav class="navbar">
       <div class="nav-left">
@@ -23,12 +36,10 @@
         <a href="#"><i class="fa-solid fa-envelope"></i> Contact</a>
         <a href="#"><i class="fa-solid fa-circle-question"></i> FAQ</a>
       </div>
-
       <div class="nav-center">
         <a href="#"><i class="fa-solid fa-globe"></i> English</a>
         <a href="#"><i class="fa-solid fa-dollar-sign"></i> US Dollar</a>
       </div>
-
       <div class="nav-right">
         <a href="#"><i class="fa-solid fa-ellipsis-h"></i> More Menus</a>
         <a href="#"><i class="fa-solid fa-truck-fast"></i> Delivery</a>
@@ -46,10 +57,24 @@
       </div>
 
       <div class="nav2-right">
-        <a href="#" class="highlight2"><i class="fa-solid fa-user"></i> Login</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-user-plus"></i> Register</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-heart"></i> Wishlist</a>
-        <a href="#" class="highlight2"><i class="fa-solid fa-scale-balanced"></i> Compare</a>
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-user"></i> Login</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-user-plus"></i> Register</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-heart"></i> Wishlist</a
+        >
+        <a href="#" class="highlight2"
+          ><i class="fa-solid fa-scale-balanced"></i> Compare</a
+        >
+      </div>
+
+      <div class="mobile-icons">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
       </div>
     </div>
 
@@ -61,7 +86,6 @@
         <a href="#">MEGA MENU</a>
         <a href="#">FULLWIDTH</a>
       </div>
-
       <div class="nav3-right">
         <i class="fa fa-phone"></i> <a href="#">1.800.555.6789</a>
         <a href="#" class="highlight1" style="color: black">BLOG</a>
@@ -71,14 +95,18 @@
     <div class="hero-section wrapper">
       <div class="hero-left">
         <p class="mobile-left">MOBILE</p>
-        <p class="hero-left-text">Best mobile options <br />at any resolution</p>
+        <p class="hero-left-text">
+          Best mobile options <br />at any resolution
+        </p>
         <button class="hero-left-button">Learn More</button>
       </div>
 
       <div class="hero-section-right">
         <div class="hero-right" id="card-wearables">
-          <span class="card-category" style="color: #231f82;">WEARABLES</span>
-          <p class="hero-right-text">Intelligent <br />& Durable <br />Design</p>
+          <span class="card-category" style="color: #231f82">WEARABLES</span>
+          <p class="hero-right-text">
+            Intelligent <br />& Durable <br />Design
+          </p>
         </div>
 
         <div class="hero-right" id="card-computers">
@@ -94,26 +122,114 @@
       <ul>
         <li>
           <i class="fa-solid fa-truck-fast"></i>
-          Free Shipping <br />
+          Free Shipping
           <span class="subtext">Free Delivery</span>
         </li>
         <li>
           <i class="fa-solid fa-rotate-left"></i>
-          Free Returns <br />
+          Free Returns
           <span class="subtext">Hassle free returns</span>
         </li>
         <li>
           <i class="fa-solid fa-lock"></i>
-          Secure Shopping <br />
+          Secure Shopping
           <span class="subtext">Best security features</span>
         </li>
         <li>
           <i class="fa-solid fa-boxes-stacked"></i>
-          Unlimited Blocks <br />
+          Unlimited Blocks
           <span class="subtext">Any content any page</span>
         </li>
       </ul>
     </div>
+    <!--Second Webpage-->
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Why buy from us?</h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          Journal has been the best selling and most loved Opencart theme since
+          first launch in 2013. Tried and tested by over 20K people, Journal is
+          the best Opencart theme framework on the market today.
+          <a href="#">Learn more</a>
+        </p>
+      </div>
 
+      <div class="tabs-container">
+        <button class="tab-btn active">TOP CATEGORIES</button>
+        <button class="tab-btn">ELECTRONICS</button>
+        <button class="tab-btn">BEAUTY</button>
+        <button class="tab-btn">FASHION</button>
+      </div>
+
+      <div class="categories-grid">
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=400&auto=format&fit=crop"
+            alt="Fashion"
+          />
+          <div class="category-label">FASHION</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=400&auto=format&fit=crop"
+            alt="Bags"
+          />
+          <div class="category-label">BAGS</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1763543712427-3f7af1ad0989?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Health & Beauty"
+          />
+          <div class="category-label">HEALTH & BEAUTY</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=400&auto=format&fit=crop"
+            alt="Footwear"
+          />
+          <div class="category-label">FOOTWEAR</div>
+        </div>
+
+        <div class="grid-item">
+          <img
+            src="https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Home Decor"
+          />
+          <div class="category-label">HOME DECOR</div>
+        </div>
+        <!-- <div class="grid-item">
+      <img src="https://plus.unsplash.com/premium_photo-1682097131455-9b90eff1f361?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Home Decor">
+      <div class="category-label">Customize</div>
+    </div> -->
+      </div>
+    </div>
+
+    <div 
+      class="section-container"
+      style="background-color: #f9f9f9; padding-bottom: 50px"
+>
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <div class="divider"></div>
+        <p class="section-desc">
+          Display any products as tabs or accordions with optional grid or
+          carousel mode. Custom products per row per module and per breakpoint.
+          Each module can display products in either grid or list view with
+          different styles per module.
+        </p>
+      </div>
+
+      <div class="tabs-container">
+        <button class="tab-btn active">FEATURED</button>
+        <button class="tab-btn">LATEST</button>
+        <button class="tab-btn">BESTSELLERS</button>
+        <button class="tab-btn">SPECIALS</button>
+      </div>
+    </div>
   </body>
 </html>
